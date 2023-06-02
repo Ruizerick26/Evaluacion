@@ -1,5 +1,5 @@
 public class Videojuegos {
-        //Inicializacion de varibles 
+        //Inicializacion de varibles
         String nombre;
         int anio_estreno;
         String genero;
@@ -13,7 +13,7 @@ public class Videojuegos {
         this.modojuego = modojuego;
 
     }
-
+    //Creación de Setters y Getters de cada atributo
     public String getNombre() {
         return nombre;
     }
@@ -45,6 +45,7 @@ public class Videojuegos {
     public void setModojuego(String modojuego) {
         this.modojuego = modojuego;
     }
+    //Función de impreción de los atributos de cada instacia
     public void imprimir(){
         System.out.println("\n"+getNombre());
         System.out.println(getGenero());
